@@ -1,5 +1,7 @@
 # Building CraftBukkit for Minecraft 1.7.10
 
+This tutorial was made due to the sheer amount of errors when compiling 1.7.10-era server software. Now we can finally make clean builds easily again.
+
 ## Bukkit
 
 We need this since it is a dependency.
