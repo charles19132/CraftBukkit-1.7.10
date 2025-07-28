@@ -15,7 +15,7 @@ cd Bukkit
 
 ### Fixing the `pom.xml`
 
-This will fix the repos.
+This will remove the outdated & unnecessary repos.
 
 ```sh
 sed -i '25,38d' pom.xml
@@ -49,13 +49,13 @@ cd CraftBukkit
 
 ### Fixing the `pom.xml`
 
-This will remove Overmapped.
+This will remove Overmapped, which deals with mappings. It breaks when compiling.
 
 ```sh
 sed -i '324,341d' pom.xml
 ```
 
-This will fix the repos.
+This will remove the outdated repos, and add Paper's repo.
 
 ```sh
 sed -i '28,37d;41,44d;48,51d' pom.xml
