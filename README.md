@@ -69,7 +69,7 @@ sed -i 's,<source>1.6</source>,<source>1.8</source>,g' pom.xml
 sed -i 's,<target>1.6</target>,<target>1.8</target>,g' pom.xml
 ```
 
-### Compiling Spigot
+### Compiling CraftBukkit
 
 ```sh
 mvn package
