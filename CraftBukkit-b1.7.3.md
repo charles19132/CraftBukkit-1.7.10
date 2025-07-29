@@ -14,6 +14,8 @@ git checkout da29e0a
 
 ### Fixing the `pom.xml`
 
+This bumps to Java 8.
+
 ```sh
 sed -i 's,<source>1.5</source>,<source>1.8</source>,g' pom.xml
 sed -i 's,<target>1.5</target>,<target>1.8</target>,g' pom.xml
@@ -36,6 +38,8 @@ git checkout 59babb2
 ```
 
 ### Fixing the `pom.xml`
+
+This bumps to Java 8 and updates the repo URLs.
 
 ```sh
 sed -i 's,http://repo.bukkit.org/artifactory/repo,https://raw.githubusercontent.com/canyonmodded/mc-server/main,g' pom.xml
