@@ -22,6 +22,8 @@ git submodule update
 
 ## Fixing the `pom.xml` files
 
+This removes old repositories, broken plugins, and adds Paper's repo. It also bumps to Java 8.
+
 ```sh
 sed -i '25,38d' Bukkit/pom.xml
 sed -i '28,37d;41,44d;48,51d;324,341d' CraftBukkit/pom.xml
