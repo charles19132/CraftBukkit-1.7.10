@@ -40,7 +40,7 @@ Make sure to `cd ..` after installing Bukkit!
 
 ### Cloning CraftBukkit
 
-This will clone an unmodified fork made just before the DMCA takedowns.
+This will clone an unmodified fork used by Paper.
 
 ```sh
 git clone https://github.com/zachbr/CraftBukkit.git
@@ -74,4 +74,5 @@ sed -i 's,<target>1.6</target>,<target>1.8</target>,g' pom.xml
 ```sh
 mvn package
 ```
+
 
