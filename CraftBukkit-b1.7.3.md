@@ -29,6 +29,8 @@ mvn install
 
 ## CraftBukkit
 
+Make sure to `cd ..` after installing Bukkit!
+
 ### Cloning CraftBukkit
 
 ```sh
@@ -62,4 +64,5 @@ sed -i 's@convertable.convert(s, new ConvertProgressUpdater(this));@try {convert
 ```sh
 mvn package
 ```
+
 
