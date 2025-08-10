@@ -43,7 +43,7 @@ Make sure to `cd ..` after installing Bukkit!
 This will clone an unmodified fork made just before the DMCA takedowns.
 
 ```sh
-git clone https://github.com/Byteflux/CraftBukkit.git
+git clone https://github.com/zachbr/CraftBukkit.git
 cd CraftBukkit
 ```
 
@@ -74,3 +74,4 @@ sed -i 's,<target>1.6</target>,<target>1.8</target>,g' pom.xml
 ```sh
 mvn package
 ```
+
