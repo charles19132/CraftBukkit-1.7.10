@@ -1,4 +1,4 @@
-# Building CraftBukkit for Beta 1.7.3
+# Building CraftBukkit for Minecraft Beta 1.7.3
 
 ## Bukkit
 
@@ -62,3 +62,4 @@ sed -i 's@convertable.convert(s, new ConvertProgressUpdater(this));@try {convert
 ```sh
 mvn package
 ```
+
